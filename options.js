@@ -140,7 +140,6 @@ document.addEventListener('DOMContentLoaded', function() {
   document.querySelector('#import-profile-data').addEventListener('click', function(){$('#import-profile-data-input').click();});
   document.querySelector('#import-profile-data-input').addEventListener('change', importProfileData);
   document.querySelector('#export-profile-data').addEventListener('click', exportProfileData);
-  document.querySelector('#send-email').addEventListener('click', sendEmail);
   //document.querySelector('#profileCreate_button').addEventListener('click', newProfile);
   //document.body.addEventListener('click', focusFilter);
   //document.querySelector('#remove_button').addEventListener('click', removeAll);
